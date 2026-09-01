@@ -95,6 +95,35 @@
             letter-spacing: 0.5px;
             box-shadow: 0 6px 14px rgba(219, 39, 119, 0.15);
         }
+        .cuadro-gradiente {
+            margin-top: 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            padding: 30px;
+            color: white;
+            font-size: 1.15rem;
+            font-weight: 600;
+            box-shadow: 0 12px 28px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cuadro-gradiente:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 36px rgba(102, 126, 234, 0.4);
+        }
+        .cuadro-retro {
+            margin-top: 25px;
+            background: #fff8e7;
+            border: 4px dashed #ff6b6b;
+            border-radius: 8px;
+            padding: 24px;
+            color: #c92a2a;
+            font-size: 1.1rem;
+            font-weight: bold;
+            font-family: "Comic Sans MS", cursive;
+            letter-spacing: 2px;
+            box-shadow: 8px 8px 0px rgba(255, 107, 107, 0.2);
+            transform: rotate(-1deg);
+        }
         footer {
             text-align: center;
             padding: 30px 20px 50px;
@@ -142,6 +171,10 @@
         <div class="caja-nueva">mi contenido nuevo</div>
 
         <div class="contenido-diferente">contenido diferente al anterior</div>
+
+        <div class="cuadro-gradiente">✨ Este es un cuadro moderno con gradiente morado y efecto hover</div>
+
+        <div class="cuadro-retro">⭐ Cuadro retro con borde punteado y estilo vintage</div>
 
     </main>
 
